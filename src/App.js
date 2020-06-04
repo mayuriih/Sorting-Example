@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <Person
-        products={[
+        fullName={[
           { id: 1, name: "Mayur", lname: "Lalwani" },
           { id: 2, name: "BBB", lname: "CCC" },
           { id: 3, name: "Brad", lname: "Dev" },

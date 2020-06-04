@@ -37,7 +37,7 @@ const useSortableData = persons => {
 };
 
 const Person = props => {
-  const { persons, requestSort, sortConfig } = useSortableData(props.products);
+  const { persons, requestSort, sortConfig } = useSortableData(props.fullName);
   const getClassNamesFor = name => {
     if (!sortConfig) {
       return;
